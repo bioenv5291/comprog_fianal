@@ -1,0 +1,36 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          average_score   R-squared:                       0.242
+Model:                            OLS   Adj. R-squared:                  0.233
+Method:                 Least Squares   F-statistic:                     26.30
+Date:                Mon, 01 Dec 2025   Prob (F-statistic):           7.55e-52
+Time:                        22:00:06   Log-Likelihood:                -3937.0
+No. Observations:                1000   AIC:                             7900.
+Df Residuals:                     987   BIC:                             7964.
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+const                                   66.9408      1.775     37.714      0.000      63.458      70.424
+gender_male                             -3.7242      0.795     -4.682      0.000      -5.285      -2.163
+race_ethnicity_group B                   1.5290      1.612      0.949      0.343      -1.634       4.691
+race_ethnicity_group C                   2.3855      1.509      1.581      0.114      -0.576       5.347
+race_ethnicity_group D                   5.1258      1.540      3.329      0.001       2.104       8.147
+race_ethnicity_group E                   6.9285      1.708      4.056      0.000       3.577      10.280
+parental_education_bachelor's degree     2.5356      1.424      1.781      0.075      -0.259       5.330
+parental_education_high school          -5.1725      1.230     -4.206      0.000      -7.586      -2.759
+parental_education_master's degree       4.0922      1.838      2.227      0.026       0.486       7.698
+parental_education_some college         -0.9275      1.182     -0.785      0.433      -3.248       1.393
+parental_education_some high school     -4.5400      1.264     -3.592      0.000      -7.020      -2.060
+lunch_standard                           8.7751      0.827     10.605      0.000       7.151      10.399
+test_preparation_none                   -7.6386      0.830     -9.201      0.000      -9.268      -6.009
+==============================================================================
+Omnibus:                       12.572   Durbin-Watson:                   2.043
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               12.915
+Skew:                          -0.274   Prob(JB):                      0.00157
+Kurtosis:                       2.897   Cond. No.                         12.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

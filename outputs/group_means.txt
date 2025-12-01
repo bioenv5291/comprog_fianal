@@ -1,0 +1,28 @@
+
+==== parental_education 별 average_score 평균 ====
+parental_education
+master's degree       73.598870
+bachelor's degree     71.923729
+associate's degree    69.569069
+some college          68.476401
+some high school      65.108007
+high school           63.096939
+Name: average_score, dtype: float64
+
+==== lunch 별 average_score 평균 ====
+lunch
+standard        70.837209
+free/reduced    62.199061
+Name: average_score, dtype: float64
+
+==== test_preparation 별 average_score 평균 ====
+test_preparation
+completed    72.669460
+none         65.038941
+Name: average_score, dtype: float64
+
+==== gender 별 average_score 평균 ====
+gender
+female    69.569498
+male      65.837483
+Name: average_score, dtype: float64
